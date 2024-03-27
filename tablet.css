@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+ 
+  margin: 0;
+  padding: 0;
+}
+.html{
+   font-size: 62.5%;
+}
+.Barra{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 12rem;
+  background-color: #f2920bd8;
+}
+.products{
+  display: flex;
+  flex-direction: column;
+}
+.articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 40rem;
+  
+ }
+ 
+ .article{
+  width: 16rem;
+  height: 16rem;
+  margin: 2rem;
+}

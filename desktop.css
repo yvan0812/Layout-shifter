@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+ 
+  margin: 0;
+  padding: 0;
+}
+.html{
+   font-size: 62.5%;
+}
+.Barra{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+  background-color: #f2920bd8;
+}
+.Barra img{
+  width: 9rem;
+  height: 6rem;
+  padding-left: 3rem;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.Information{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  background-color: rgb(248, 242, 195);
+}
+#primera{
+  width: 25rem;
+  height: 25rem;
+}
+#segunda{
+  width: 40rem;
+    height: 30rem;
+}
+
+.products{
+  background-color: #f2920bd8;
+  
+}
+
+.articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70rem;
+  
+ }
+ 
+ .article{
+  width: 16rem;
+  height: 16rem;
+  margin: 2rem;
+}
